@@ -4,7 +4,7 @@ This is a simple weather dashboard application built using React.
 
 ## Setup Instructions
 
-1. Clone the repository: git clone https://github.com/your-username/weather-dashboard.git
+1. Clone the repository: git clone https://github.com/afzalakhtar/weather-dashboard
 2. Navigate to the project directory: cd weather-dashboard
 3. Install dependencies: npm install
 4. Obtain an API key from OpenWeatherMap by signing up on their website.

@@ -9,7 +9,7 @@ const App = () => {
 
   const fetchWeatherData = async () => {
     try {
-      const apiKey = 'YOUR_OPENWEATHERMAP_API_KEY'; 
+      const apiKey = 'YOUR_OPENWEATHERMAP_API_KEY';
       const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
       const response = await fetch(apiUrl);
       const data = await response.json();
